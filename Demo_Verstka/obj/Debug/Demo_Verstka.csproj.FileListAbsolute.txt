@@ -24,3 +24,4 @@ C:\Users\10180014\source\repos\Demo_Verstka\Demo_Verstka\bin\Debug\EntityFramewo
 C:\Users\10180014\source\repos\Demo_Verstka\Demo_Verstka\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\10180014\source\repos\Demo_Verstka\Demo_Verstka\obj\Debug\Demo_Verstka_Content.g.cs
 C:\Users\10180014\source\repos\Demo_Verstka\Demo_Verstka\obj\Debug\Demo_Verstka.csproj.CopyComplete
+C:\Users\10180014\source\repos\Demo_Verstka\Demo_Verstka\obj\Debug\Demo_Verstka.csprojAssemblyReference.cache

@@ -24,7 +24,8 @@ namespace Demo_Verstka
         {
             InitializeComponent();
             MainFrame.Navigate(new PageManager(MainFrame));
-
+            this.MinHeight = 500;
+            this.MinWidth = 800;
         }
 
         private void Back_Click(object sender, RoutedEventArgs e)

@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Demo_Verstka"
         mc:Ignorable="d"
-        Title="Попрыженок" Height="500" Width="800" ResizeMode="NoResize" Icon="Resources/icon.ico">
+        Title="Попрыженок" Height="500" Width="800" Icon="Resources/icon.ico">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition Height="370"/>
-            <RowDefinition/>
+            <RowDefinition x:Name="Header" Height="50"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition x:Name="Border" Height="49"/>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Orientation="Horizontal" Background="#43DCFE ">
             <Label Content="Попрыженок" Panel.ZIndex="1" Style="{StaticResource Title}" Margin="300,0,0,0"/>
@@ -20,7 +20,7 @@
         </StackPanel>
         <Image Source="Resources/logo.png" HorizontalAlignment="Right" Margin="0, 0, 10, 0"/>
         <StackPanel Grid.Row="1">
-            <Frame Name="MainFrame" Height="370" NavigationUIVisibility="Hidden"/>
+            <Frame Name="MainFrame" Height="auto" NavigationUIVisibility="Hidden"/>
         </StackPanel>
     </Grid>
 </Window>
