@@ -1,0 +1,26 @@
+﻿<Window x:Class="Demo_Verstka.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demo_Verstka"
+        mc:Ignorable="d"
+        Title="Попрыженок" Height="500" Width="800" ResizeMode="NoResize" Icon="Resources/icon.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="370"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Background="#43DCFE ">
+            <Label Content="Попрыженок" Panel.ZIndex="1" Style="{StaticResource Title}" Margin="300,0,0,0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Background="#43DCFE">
+            <Button x:Name="Back" Content="Назад" Margin="10" Width="100" Click="Back_Click"/>
+        </StackPanel>
+        <Image Source="Resources/logo.png" HorizontalAlignment="Right" Margin="0, 0, 10, 0"/>
+        <StackPanel Grid.Row="1">
+            <Frame Name="MainFrame" Height="370" NavigationUIVisibility="Hidden"/>
+        </StackPanel>
+    </Grid>
+</Window>
