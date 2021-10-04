@@ -26,8 +26,15 @@ namespace Demo_Verstka
             MainFrame.Navigate(new PageManager(MainFrame));
             this.MinHeight = 500;
             this.MinWidth = 800;
+            //this.MaxHeight = 800;
+            //this.MaxWidth = 1100;
         }
-
+        /// <summary>
+        /// Событие нажатия кнопки "Назад" <br></br>
+        /// Возвращает на предыдущую страницу
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Back_Click(object sender, RoutedEventArgs e)
         {
             if(MainFrame.CanGoBack) MainFrame.GoBack();

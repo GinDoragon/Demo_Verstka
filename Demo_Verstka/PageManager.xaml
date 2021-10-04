@@ -22,7 +22,7 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <StackPanel Opacity="0.5" Grid.RowSpan="4" Grid.ColumnSpan="4" Background="#43DCFE">
-            <Image Source="Resources/logo.png" Height="350" Margin="10"/>
+            <Image Source="Resources/logo.png" Height="350" Margin="10" HorizontalAlignment="Center" VerticalAlignment ="Center" Stretch="Uniform"/>
         </StackPanel>
         <Button Grid.Row="1" Grid.Column="1" Height="60" Width="150" Content="Агенты" Name="Agents" Click="Agents_Click"/>
         <Button Grid.Row="2" Grid.Column="1" Height="60" Width="150" Content="Что-то ещё"/>

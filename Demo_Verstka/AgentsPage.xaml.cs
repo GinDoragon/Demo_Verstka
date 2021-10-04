@@ -24,9 +24,14 @@ namespace Demo_Verstka
         {
             InitializeComponent();
             ListAgents.ItemsSource = DB.agentsEntities.Agent.ToList();
-            cbFilter.Items.Add("По типу");
-            cbSort.Items.Add("от А до Я");
+            cbFilter.Items.Add("По типу (in development)");
+            cbSort.Items.Add("от А до Я (in development)");
         }
+        /// <summary>
+        /// Событие для поиска записей по введённым в поле ввода данным
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void txtSearch_TextChanged(object sender, TextChangedEventArgs e)
         {
             ListAgents.ItemsSource = DB.agentsEntities.Agent.Where(x => x.Title.StartsWith(txtSearch.Text)).ToList();

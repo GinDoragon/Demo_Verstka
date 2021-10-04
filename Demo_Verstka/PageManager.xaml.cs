@@ -26,7 +26,12 @@ namespace Demo_Verstka
             InitializeComponent();
             Mframe = frame;
         }
-
+        /// <summary>
+        /// Событие нажатия на кнопку "Агенты" <br></br>
+        /// Переносит на страницу AgentsPage
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void Agents_Click(object sender, RoutedEventArgs e)
         {
             Mframe.Navigate(new AgentsPage());

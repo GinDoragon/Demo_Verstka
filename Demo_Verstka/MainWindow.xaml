@@ -19,8 +19,6 @@
             <Button x:Name="Back" Content="Назад" Margin="10" Width="100" Click="Back_Click"/>
         </StackPanel>
         <Image Source="Resources/logo.png" HorizontalAlignment="Right" Margin="0, 0, 10, 0"/>
-        <StackPanel Grid.Row="1">
-            <Frame Name="MainFrame" Height="auto" NavigationUIVisibility="Hidden"/>
-        </StackPanel>
+        <Frame Name="MainFrame" Height="auto" NavigationUIVisibility="Hidden" Grid.Row="1"/>
     </Grid>
 </Window>

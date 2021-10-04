@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Doragon\Source\Repos\Demo_Verstka\Demo_Verstka\obj\Debug\
+C:\Users\Doragon\Source\Repos\Demo_Verstka\Demo_Verstka\obj\Release\
 Demo_Verstka
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Doragon\Source\Repos\Demo_Verstka\Demo_Verstka\App.xaml
 32111341616
 2-1220280265
@@ -16,5 +16,5 @@ C:\Users\Doragon\Source\Repos\Demo_Verstka\Demo_Verstka\App.xaml
 181787451293
 AgentsPage.xaml;MainWindow.xaml;PageManager.xaml;
 
-False
+True
 
